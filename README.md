@@ -1,6 +1,6 @@
-# RFANNS
+# WSDM2027DRFANNS
 
-RFANNS is a research implementation of range-filtered approximate nearest
+DRFANNS is a research implementation of dynamic range-filtered approximate nearest
 neighbor search. It supports static index construction, filtered search,
 dynamic insertion, and physical deletion for vectors with one signed 32-bit
 attribute.
@@ -31,7 +31,7 @@ python3 scripts/smoke_experiment.py --build-dir build
 
 ## Dataset
 
-RFANNS has been evaluated with the following datasets. Each evaluation uses
+DRFANNS has been evaluated with the following datasets. Each evaluation uses
 10,000 query vectors and squared L2 distance.
 
 | Dataset | Base vectors | Dimensions | Source |
@@ -115,7 +115,7 @@ Distances returned by the API are squared L2 distances.
 
 ## License
 
-The locally developed RFANNS code is Copyright (c) 2026 KAKu99 and is released
+The locally developed DRFANNS code is Copyright (c) 2026 KAKu99 and is released
 under the MIT License. The modified hnswlib files under `third_party/hnswlib`
 remain under the Apache License 2.0. See `LICENSE`,
 `third_party/hnswlib/LICENSE`, and `NOTICE.md`.
