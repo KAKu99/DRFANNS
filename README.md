@@ -1,9 +1,7 @@
 # WSDM2027DRFANNS
 
-DRFANNS is a research implementation of dynamic range-filtered approximate nearest
-neighbor search. It supports static index construction, filtered search,
-dynamic insertion, and physical deletion for vectors with one signed 32-bit
-attribute.
+DRFANNS is a research implementation of dynamic range-filtered approximate nearest neighbor search. 
+It supports static index construction, filtered search, dynamic insertion, and physical deletion for vectors with one attribute.
 
 ## Requirements
 
@@ -115,7 +113,7 @@ Distances returned by the API are squared L2 distances.
 
 ## License
 
-The locally developed DRFANNS code is Copyright (c) 2026 KAKu99 and is released
+The locally developed DRFANNS code is Copyright (c) 2026 Anon. and is released
 under the MIT License. The modified hnswlib files under `third_party/hnswlib`
 remain under the Apache License 2.0. See `LICENSE`,
 `third_party/hnswlib/LICENSE`, and `NOTICE.md`.
