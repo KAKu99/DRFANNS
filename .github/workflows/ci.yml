@@ -1,0 +1,23 @@
+name: build-and-test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure
+        run: >-
+          cmake -S . -B build
+          -DCMAKE_BUILD_TYPE=Release
+          -DRFANNS_NATIVE_ARCH=OFF
+          -DBUILD_TESTING=ON
+      - name: Build
+        run: cmake --build build -j 2
+      - name: Test
+        run: ctest --test-dir build --output-on-failure
+      - name: CLI smoke experiment
+        run: python3 scripts/smoke_experiment.py --build-dir build
