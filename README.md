@@ -113,7 +113,7 @@ Distances returned by the API are squared L2 distances.
 
 ## License
 
-The locally developed DRFANNS code is Copyright (c) 2026 Anon. and is released
+The locally developed DRFANNS code is Copyright (c) 2026 Anonymous and is released
 under the MIT License. The modified hnswlib files under `third_party/hnswlib`
 remain under the Apache License 2.0. See `LICENSE`,
 `third_party/hnswlib/LICENSE`, and `NOTICE.md`.
