@@ -1,4 +1,4 @@
-# Notices
+K# Notices
 
 This repository contains the compact RFANNS reference implementation. It is
 prepared as a standalone source distribution without build outputs, datasets,
