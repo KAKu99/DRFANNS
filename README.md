@@ -2,6 +2,7 @@
 
 DRFANNS is a research implementation of dynamic range-filtered approximate nearest neighbor search. 
 It supports static index construction, filtered search, dynamic insertion, and physical deletion for vectors with one attribute.
+Supplementary experimental results for the paper currently under review at WSDM 2027 are provided in `WSDM2027DRFANNS_supplementary.pdf`.
 
 ## Requirements
 
@@ -51,11 +52,8 @@ attributes = rng.integers(0, 100000, size=10_000_000, dtype=numpy.int32)
 attributes.tofile("attributes.bin")
 ```
 
-For YouTube-Video, `publishedAt` is fetched from the YouTube Data API, parsed
-as UTC, and converted by `published_day = floor(Unix timestamp / 86400)`.
-Rows without a publication time or `likeCount` are removed; the remaining rows
-are shuffled with seed 0 and the first 1,000,000 are used. The evaluated
-attribute values range from 12995 to 16714.
+For YouTube-Video, `publishedAt` is fetched from the YouTube Data API, parsed as UTC, and converted by `published_day = floor(Unix timestamp / 86400)`. 
+The evaluated attribute values range from 12995 to 16714.
 
 Convert vectors to the matrix format below and generate filtered ground truth
 with `generate_filter_groundtruth`.
