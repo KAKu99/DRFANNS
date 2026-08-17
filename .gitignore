@@ -1,0 +1,34 @@
+# CMake and compiled output
+/build/
+/build-*/
+/build_*/
+/cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+compile_commands.json
+*.a
+*.so
+*.o
+*.out
+
+# Generated experiment data and results
+/smoke*-output/
+/results/
+/indexes/
+/logs/
+*.bin
+*.index
+*.idmap
+*.rfwdyn
+*.csv
+
+# Python/editor noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+*~
