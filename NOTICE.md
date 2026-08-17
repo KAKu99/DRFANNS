@@ -15,7 +15,7 @@ These files are distributed under the MIT License in the root `LICENSE`.
 The copyright notice for the locally developed RFANNS code is:
 
 ```text
-Copyright (c) 2026 KAKu99
+Copyright (c) 2026 Anonymous
 ```
 
 The standalone release documentation, CI configuration, and helper scripts
