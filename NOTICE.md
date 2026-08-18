@@ -4,10 +4,10 @@ This repository contains the compact RFANNS reference implementation. It is
 prepared as a standalone source distribution without build outputs, datasets,
 indexes, logs, figures, or machine-specific runner scripts.
 
-## RFANNS implementation (MIT)
+## DRFANNS implementation (MIT)
 
 The implementation under `include/rfanns`, `src`, `tests`, and `tools`, along
-with its CMake build definition, was developed locally as the RFANNS
+with its CMake build definition, was developed locally as the DRFANNS
 implementation. Its earlier Proposal directories were local snapshots of the
 same development process, not third-party upstream sources.
 
