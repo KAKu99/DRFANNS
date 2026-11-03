@@ -1,4 +1,4 @@
-# WSDM2027DRFANNS
+# DRFANNS
 
 DRFANNS is a research implementation of dynamic range-filtered approximate nearest neighbor search. 
 It supports static index construction, filtered search, dynamic insertion, and physical deletion for vectors with one attribute.
