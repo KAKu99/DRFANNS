@@ -124,7 +124,7 @@ If you use our implementation, please cite the following paper.
 
 ## License
 
-The locally developed DRFANNS code is Copyright (c) 2026 Anonymous and is released
+The locally developed DRFANNS code is Copyright (c) 2026 KAKu99 and is released
 under the MIT License. The modified hnswlib files under `third_party/hnswlib`
 remain under the Apache License 2.0. See `LICENSE`,
 `third_party/hnswlib/LICENSE`, and `NOTICE.md`.
