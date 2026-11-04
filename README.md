@@ -1,6 +1,6 @@
 # DRFANNS
 
-DRFANNS is an algorithm for dynamic range-filtered approximate nearest neighbor search. 
+We propose an algorithm for dynamic range-filtered approximate nearest neighbor search. 
 It supports static index construction, filtered search, dynamic insertion, and physical deletion for vectors with one attribute.  
 Supplementary experimental results for our WSDM 2027 paper are provided [here](https://github.com/KAKu99/DRFANNS/blob/main/WSDM2027DRFANNS_supplementary.pdf).
 
@@ -108,6 +108,19 @@ little-endian.
 | Evaluation manifest | TSV rows: `tag`, `range_path`, `groundtruth_path` |
 
 Distances returned by the API are squared L2 distances.
+
+
+## Citation
+If you use our implementation, please cite the following paper.
+``` 
+@inproceedings{kido2027range,  
+    title={Range-Filtered Approximate Nearest Neighbor Search on Fully Dynamic Data },  
+    author={Kido, Keito and Amagata, Daichi},  
+    booktitle={WSDM},  
+    pages={xx-xx},  
+    year={2027}  
+}
+``` 
 
 ## License
 
