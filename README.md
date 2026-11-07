@@ -113,12 +113,11 @@ Distances returned by the API are squared L2 distances.
 ## Citation
 If you use our implementation, please cite the following paper.
 ``` 
-@inproceedings{kido2027range,  
-    title={Range-Filtered Approximate Nearest Neighbor Search on Fully Dynamic Data },  
-    author={Kido, Keito and Amagata, Daichi},  
-    booktitle={WSDM},  
-    pages={xx-xx},  
-    year={2027}  
+@inproceedings{kido2027stride,
+  title={Range-Filtered Approximate Nearest Neighbor Search on Fully Dynamic Data},
+  author={Kido, Keito and Amagata, Daichi and Fujita, Sumio},
+  booktitle={WSDM},
+  year={2027}
 }
 ``` 
 
