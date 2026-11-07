@@ -116,7 +116,7 @@ If you use our implementation, please cite the following paper.
 @inproceedings{kido2027stride,
   title={Range-Filtered Approximate Nearest Neighbor Search on Fully Dynamic Data},
   author={Kido, Keito and Amagata, Daichi and Fujita, Sumio},
-  booktitle={WSDM},
+  booktitle={Proceedings of the ACM International Conference on Web Search and Data Mining},
   year={2027}
 }
 ``` 
